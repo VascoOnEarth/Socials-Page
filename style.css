@@ -21,15 +21,15 @@ p{
 
 .box{
     position: relative;
-    width: 1200px;
-    height: 700px;
+    width: 1000px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #8f9ec0;
     overflow: visible;
     border-radius: 20px;
-}
+}   
 
 
 .pfp {
@@ -41,8 +41,8 @@ p{
 
 .pfp img {
     border-radius: 50%;
-    width: 200px; 
-    height: 200px; 
+    width: 150px; 
+    height: 150px; 
     border: 10px solid #343741; 
 }
 
@@ -55,15 +55,15 @@ p{
 
 .twitch{
     position: absolute;
-    top: 200px; 
+    top: 100px; 
     left: 50%;
     transform: translateX(-50%);
 }
 
 .twitch button{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ p{
 }
 .twitch p{
     position: absolute;
-    top: 37px; 
+    top: 25px; 
     left: 61%;
     transform: translateX(-50%);
     opacity: 0;
@@ -105,25 +105,25 @@ p{
 }
 
 .twitch img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     transition: all 0.5s;
 }
 .twitch button:hover img{
-    transform: translateX(-150%);
+    transform: translateX(-175%);
 }
 
 .youtube{
     position: absolute;
-    top: 320px; 
+    top: 200px; 
     left: 50%;
     transform: translateX(-50%);
 }
 
 .youtube button{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,18 +139,18 @@ p{
 }
 
 .youtube img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     transition: all 0.5s;
 }
 
 .youtube button:hover img{
-    transform: translateX(-150%);
+    transform: translateX(-175%);
 }
 
 .youtube p{
     position: absolute;
-    top: 37px; 
+    top: 25px; 
     left: 61%;
     transform: translateX(-50%);
     opacity: 0;
@@ -163,15 +163,15 @@ p{
 
 .twitter{
     position: absolute;
-    top: 440px; 
+    top: 300px; 
     left: 50%;
     transform: translateX(-50%);
 }
 
 .twitter button{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,17 +187,17 @@ p{
 }
 
 .twitter img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     transition: all 0.5s;
 }
 .twitter button:hover img{
-    transform: translateX(-150%);
+    transform: translateX(-175%);
 }
 
 .twitter p{
     position: absolute;
-    top: 37px; 
+    top: 25px; 
     left: 61%;
     transform: translateX(-50%);
     opacity: 0;
@@ -210,15 +210,15 @@ p{
 
 .discord{
     position: absolute;
-    top: 560px; 
+    top: 400px; 
     left: 50%;
     transform: translateX(-50%);
 }
 
 .discord button{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,18 +234,18 @@ p{
 }
 
 .discord img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     transition: all 0.5s;
 }
 
 .discord button:hover img{
-    transform: translateX(-122%);
+    transform: translateX(-175%);
 }
 
 .discord p{
     position: absolute;
-    top: 25px; 
+    top: 13px; 
     left: 61%;
     transform: translateX(-50%);
     opacity: 0;
