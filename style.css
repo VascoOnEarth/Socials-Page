@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #424658;
+}
+
+p{
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.box{
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8f9ec0;
+    overflow: visible;
+    border-radius: 20px;
+}
+
+
+.pfp {
+    position: absolute;
+    top: -80px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pfp img {
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px; 
+    border: 10px solid #343741; 
+}
+
+.name{
+    position: absolute;
+    top: 130px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.twitch{
+    position: absolute;
+    top: 200px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.twitch button{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: visible;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.5s;
+}
+.twitch button:hover{
+    width: 300px;
+}
+.twitch p{
+    position: absolute;
+    top: 37px; 
+    left: 61%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.twitch button:hover p{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    65%{
+        opacity: 0.5;
+    }
+    90%{
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.twitch img{
+    width: 70px;
+    height: 70px;
+    transition: all 0.5s;
+}
+.twitch button:hover img{
+    transform: translateX(-150%);
+}
+
+.youtube{
+    position: absolute;
+    top: 320px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.youtube button{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: visible;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.youtube button:hover{
+    width: 300px;
+}
+
+.youtube img{
+    width: 70px;
+    height: 70px;
+    transition: all 0.5s;
+}
+
+.youtube button:hover img{
+    transform: translateX(-150%);
+}
+
+.youtube p{
+    position: absolute;
+    top: 37px; 
+    left: 61%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.youtube button:hover p{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.twitter{
+    position: absolute;
+    top: 440px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.twitter button{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: visible;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.twitter button:hover{
+    width: 300px;
+}
+
+.twitter img{
+    width: 70px;
+    height: 70px;
+    transition: all 0.5s;
+}
+.twitter button:hover img{
+    transform: translateX(-150%);
+}
+
+.twitter p{
+    position: absolute;
+    top: 37px; 
+    left: 61%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.twitter button:hover p{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.discord{
+    position: absolute;
+    top: 560px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.discord button{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: visible;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.discord button:hover{
+    width: 300px;
+}
+
+.discord img{
+    width: 80px;
+    height: 80px;
+    transition: all 0.5s;
+}
+
+.discord button:hover img{
+    transform: translateX(-122%);
+}
+
+.discord p{
+    position: absolute;
+    top: 25px; 
+    left: 61%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.discord button:hover p{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
